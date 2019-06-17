@@ -2,7 +2,9 @@ import React from 'react';
 import './badge.css';
 import confLogo from '../../images/badge-header.svg';
 const avatar =
-  'https://www.gravatar.com/avatar/f63a9c45aca0e7e7de0782a6b1dff40b?d=identicon';
+  'https://media.licdn.com/dms/image/C5603AQGSgBIcnRqjDA/profile-displayphoto-shrink_200_200/0?e=1564012800&v=beta&t=D-YlZ-1KlAdZqOvD52-9GjkMhOtCzoEBwiWNsjs6D0Y';
+const edgar_facebook = 'https://www.facebook.com/edgar.colonb';
+
 export default function app() {
   return (
     <div className="Badge">
@@ -18,9 +20,7 @@ export default function app() {
       <div className="Badge__section-info">
         <h3>Software Engineer - FullStack developer</h3>
         <div>
-          <a href="https://www.facebook.com/edgar.colonb">
-            @facebook/edgar.colonb
-          </a>
+          <a href={edgar_facebook}>@facebook/edgar.colonb</a>
         </div>
       </div>
 
