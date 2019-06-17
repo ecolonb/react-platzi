@@ -1,6 +1,7 @@
 import React from 'react';
 import Badge from './components/badge/Badge';
 import './App.css';
+import BadgeNew from './pages/badge_new/BadgeNew';
 
 const firstname = 'Edgar';
 const lastname = 'Colón';
@@ -11,12 +12,7 @@ const edgar_facebook = 'https://www.facebook.com/edgar.colonb';
 function App() {
   return (
     <div className="App">
-      <Badge
-        lastname={lastname}
-        firstname={firstname}
-        avatar={avatar}
-        facebook={edgar_facebook}
-      />
+      <BadgeNew />
     </div>
   );
 }
